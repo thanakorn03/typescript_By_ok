@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                 // ระบุเวอร์ชัน JavaScript
+    "module": "commonjs",               // ใช้ CommonJS module system
+    "rootDir": "./src",                 // โฟลเดอร์ที่เก็บไฟล์ต้นฉบับ
+    "outDir": "./dist",                 // โฟลเดอร์สำหรับไฟล์ที่คอมไพล์
+    "esModuleInterop": true,            // เพิ่มการรองรับ CommonJS modules
+    "forceConsistentCasingInFileNames": true, 
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],              // รวมไฟล์ที่ต้องคอมไพล์ในโฟลเดอร์ src
+  "exclude": ["node_modules"]           // ไม่คอมไพล์ไฟล์ใน node_modules
+}
